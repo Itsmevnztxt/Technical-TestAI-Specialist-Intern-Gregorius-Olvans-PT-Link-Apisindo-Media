@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>OCR Extraction Result - Interactive Slide</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #121212;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+        }
+        .header-info {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .badge {
+            background: #007bff;
+            color: #fff;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .slide-container {
+            position: relative;
+            width: 5734px;
+            height: 3200px;
+            background-image: url('slide.jpg');
+            background-size: 100% 100%;
+            box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.7);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .text-box {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            overflow: hidden;
+            padding: 2px 4px;
+            border-radius: 3px;
+            /* Garis bantu halus agar terlihat jelas bahwa ini elemen HTML */
+            border: 1px dashed rgba(0, 123, 255, 0.5);
+            transition: all 0.2s ease-in-out;
+            cursor: text;
+        }
+        .text-box:hover {
+            border: 2px solid #00ff00 !important;
+            transform: scale(1.02);
+            z-index: 100 !important;
+            box-shadow: 0 4px 10px rgba(0, 255, 0, 0.4);
+        }
+        .text-box:focus {
+            outline: none;
+            border: 2px solid #ff9800 !important;
+            z-index: 101 !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-info">
+        <h2>Interactive OCR Document Reconstruction</h2>
+        <span class="badge">Total Blok Teks: 24 | Contenteditable Enabled</span>
+    </div>
+
+    <div class="slide-container">
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 80.19% (Klik untuk mengedit)"
+              style="left: 305px; top: 237px; width: 2617px; height: 264px; font-size: 190px; background-color: rgb(246, 252, 253); color: black; z-index: 1;">
+            Portofolio Layanan Utama
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 55.44% (Klik untuk mengedit)"
+              style="left: 4776px; top: 131px; width: 701px; height: 369px; font-size: 265px; background-color: rgb(240, 246, 251); color: black; z-index: 2;">
+            Qfois
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 11.39% (Klik untuk mengedit)"
+              style="left: 5186px; top: 414px; width: 346px; height: 51px; font-size: 36px; background-color: rgb(229, 244, 248); color: black; z-index: 3;">
+            Profile URoge s v8l0
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 99.40% (Klik untuk mengedit)"
+              style="left: 580px; top: 759px; width: 1254px; height: 183px; font-size: 131px; background-color: rgb(4, 52, 97); color: white; z-index: 4;">
+            Talent Development
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 99.97% (Klik untuk mengedit)"
+              style="left: 2394px; top: 737px; width: 943px; height: 205px; font-size: 147px; background-color: rgb(3, 52, 96); color: white; z-index: 5;">
+            Cyber Security
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 72.09% (Klik untuk mengedit)"
+              style="left: 3984px; top: 747px; width: 1095px; height: 192px; font-size: 138px; background-color: rgb(3, 52, 96); color: white; z-index: 6;">
+            Cloud Computing
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 58.24% (Klik untuk mengedit)"
+              style="left: 126px; top: 1480px; width: 132px; height: 67px; font-size: 48px; background-color: rgb(250, 253, 253); color: black; z-index: 7;">
+            Dala
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 23.97% (Klik untuk mengedit)"
+              style="left: 130px; top: 1743px; width: 124px; height: 57px; font-size: 41px; background-color: rgb(249, 252, 253); color: black; z-index: 8;">
+            Doli
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 93.67% (Klik untuk mengedit)"
+              style="left: 777px; top: 1909px; width: 864px; height: 195px; font-size: 140px; background-color: rgb(251, 254, 253); color: black; z-index: 9;">
+            Program SEAL,
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 92.60% (Klik untuk mengedit)"
+              style="left: 2299px; top: 1906px; width: 1124px; height: 197px; font-size: 141px; background-color: rgb(251, 254, 253); color: black; z-index: 10;">
+            Penetration Testing,
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 87.64% (Klik untuk mengedit)"
+              style="left: 4025px; top: 1928px; width: 1016px; height: 139px; font-size: 100px; background-color: rgb(249, 254, 253); color: black; z-index: 11;">
+            Solusi end-to-end
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 47.17% (Klik untuk mengedit)"
+              style="left: 134px; top: 2164px; width: 129px; height: 57px; font-size: 41px; background-color: rgb(248, 251, 253); color: black; z-index: 12;">
+            User
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 89.95% (Klik untuk mengedit)"
+              style="left: 558px; top: 2069px; width: 1297px; height: 184px; font-size: 132px; background-color: rgb(251, 254, 253); color: black; z-index: 13;">
+            Talenesia; dan Magang
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 89.53% (Klik untuk mengedit)"
+              style="left: 2335px; top: 2056px; width: 1062px; height: 189px; font-size: 136px; background-color: rgb(250, 254, 252); color: black; z-index: 14;">
+            Security Operation
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 74.25% (Klik untuk mengedit)"
+              style="left: 3981px; top: 2069px; width: 1104px; height: 171px; font-size: 123px; background-color: rgb(251, 254, 253); color: black; z-index: 15;">
+            transformasi digital
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 88.65% (Klik untuk mengedit)"
+              style="left: 620px; top: 2224px; width: 1178px; height: 138px; font-size: 99px; background-color: rgb(247, 253, 252); color: black; z-index: 16;">
+            Hub Kemnaker untuk
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 90.14% (Klik untuk mengedit)"
+              style="left: 2342px; top: 2216px; width: 1054px; height: 172px; font-size: 123px; background-color: rgb(251, 254, 253); color: black; z-index: 17;">
+            Center, dan Digital
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 85.75% (Klik untuk mengedit)"
+              style="left: 4108px; top: 2226px; width: 855px; height: 161px; font-size: 115px; background-color: rgb(249, 254, 253); color: black; z-index: 18;">
+            untuk berbagai
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 63.03% (Klik untuk mengedit)"
+              style="left: 755px; top: 2370px; width: 894px; height: 170px; font-size: 122px; background-color: rgb(250, 254, 253); color: black; z-index: 19;">
+            pengembangan
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 98.25% (Klik untuk mengedit)"
+              style="left: 2573px; top: 2376px; width: 573px; height: 134px; font-size: 96px; background-color: rgb(247, 253, 252); color: black; z-index: 20;">
+            Forensics.
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 94.09% (Klik untuk mengedit)"
+              style="left: 4110px; top: 2376px; width: 851px; height: 134px; font-size: 96px; background-color: rgb(248, 253, 253); color: black; z-index: 21;">
+            sektor industri.
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 95.97% (Klik untuk mengedit)"
+              style="left: 1003px; top: 2522px; width: 385px; height: 160px; font-size: 115px; background-color: rgb(248, 253, 252); color: black; z-index: 22;">
+            digital.
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 4.83% (Klik untuk mengedit)"
+              style="left: 120px; top: 1197px; width: 232px; height: 98px; font-size: 70px; background-color: rgb(251, 253, 253); color: black; z-index: 23;">
+            ohunten
+        </span>
+        <span class="text-box" 
+              contenteditable="true" 
+              title="Confidence: 71.84% (Klik untuk mengedit)"
+              style="left: 117px; top: 1265px; width: 199px; height: 111px; font-size: 79px; background-color: rgb(251, 253, 254); color: black; z-index: 24;">
+            9266
+        </span>
+    </div>
+</body>
+</html>
